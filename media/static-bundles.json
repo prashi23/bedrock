@@ -1282,6 +1282,13 @@
     },
     {
       "files": [
+        "js/libs/webvitals.umd.js",
+        "js/base/webvitals-init.js"
+      ],
+      "name": "performance-metrics"
+    },
+    {
+      "files": [
         "js/base/mozilla-article.js",
         "js/newsletter/form-protocol.js",
         "protocol/js/protocol-newsletter.js",
