@@ -293,6 +293,10 @@ class FirefoxDesktop(_ProductDetails):
 
         product = '%s-%s' % (prod_name, suffix)
 
+        # Temporary hack to return beta stub for testing
+        if product == 'firefox-stub':
+            product = 'firefox-beta-stub'
+
         return '?'.join([self.bouncer_url,
                         urlencode([
                             ('product', product),
