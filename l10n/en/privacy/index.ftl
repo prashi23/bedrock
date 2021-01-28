@@ -11,7 +11,7 @@ privacy-index-if-you-want-to-make-a-correction = If you want to make a correctio
 
 # Variables:
 #   $dsar (url) - link to https://app.onetrust.com/app/#/webform/4ba08202-2ede-4934-a89e-f0b0870f95f0
-privacy-index-see-here-for-data-subject = <a href="{ $dsar }">See here for Data Subject Access Requests.</a>
+privacy-index-see-here-for-data-subject = <a href="{ $dsar }">See here for Data Subject Access Requests.</a> If you are under 13, we don’t want your personal information, and you must not provide it to us. If you are a parent and believe that your child who is under 13 has provided us with personal information, please contact us to have your child’s information removed.
 
 # Variables:
 #   $sumo (url) - link to https://support.mozilla.org/
@@ -37,3 +37,14 @@ privacy-index-to-review-and-comment-on-proposed = To review and comment on propo
 #   $blog (url) - link to https://blog.mozilla.org/privacy/
 privacy-index-read-more-about-our-ongoing = Read more about our ongoing privacy and security public policy work on <a href="{ $blog }">{ -brand-name-mozilla }'s Open Policy and Advocacy Blog</a>.
 privacy-index-outdated-policies = Outdated Policies
+privacy-index-mozilla-websites-communications = Mozilla Websites, Communications & Cookies
+privacy-index-firefox-browser = { -brand-name-firefox-browser }
+privacy-index-firefox-os = { -brand-name-firefox-os }
+privacy-index-firefox-relay = { -brand-name-firefox-relay }
+privacy-index-firefox-private-network = { -brand-name-firefox-private-network }
+privacy-index-firefox-reality = { -brand-name-firefox-reality }
+privacy-index-firefox-focus = { -brand-name-firefox-focus }
+privacy-index-mozilla-vpn = { -brand-name-mozilla-vpn }
+privacy-index-thunderbird = { -brand-name-thunderbird }
+privacy-index-firefox-better-web = { -brand-name-firefox } Better Web
+privacy-index-firefox-fire-tv = { -brand-name-firefox } for Fire TV
