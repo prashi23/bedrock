@@ -30,17 +30,14 @@ def vpn_allowed_countries():
 
 @require_safe
 def vpn_landing_page(request):
-    locale = l10n_utils.get_locale(request)
     template_name = 'products/vpn/landing.html'
 
     context = {
         'allowed_countries': vpn_allowed_countries(),
-        'monthly_price': vpn_monthly_price(locale),
-
+        'monthly_price': vpn_monthly_price('us'),
     }
 
-    return l10n_utils.render(request, template_name, context,
-                             ftl_files=[])
+    return l10n_utils.render(request, template_name, context)
 
 
 @require_safe
